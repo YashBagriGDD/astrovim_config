@@ -25,6 +25,8 @@ return {
   },
   {
     "jay-babu/mason-nvim-dap.nvim",
+    dependencies = { "nvim-dap" },
+    cmd = { "DapInstall", "DapUninstall" },
     -- overrides `require("mason-nvim-dap").setup(...)`
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
