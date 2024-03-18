@@ -23,6 +23,9 @@ return {
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.cs" },
 
+  -- Test
+  { import = "astrocommunity.test.neotest" },
+
   -- Editing Support
   { import = "astrocommunity.editing-support.ultimate-autopair-nvim" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
